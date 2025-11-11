@@ -1,16 +1,14 @@
-#include <stdio.h>
-
+#include<stdio.h>
 void main()
- {
-    int a=2, b=4, c;
+{
+    char ch='u';
 
-    
-    c = a;
-    a = b;
-    b = c;
-
-    printf("\nAfter swapping:\n");
-    printf("  a = %d,  b = %d\n", a, b);
-
-
+    if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')  //vowel
+    {
+        printf("char is vowel");
+    }
+    else
+    {
+        printf("char is consanant");
+    }
 }

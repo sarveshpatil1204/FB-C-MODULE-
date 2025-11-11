@@ -1,13 +1,23 @@
 #include <stdio.h>
 
-void main() 
-{
-   int base, height=5;
-    double area;
+void main()
+ {
+    int no = 121;              
+    int temp = no ;
+    int rev = 0;
 
+   
+    while (no > 0) {
+        int digit = no % 10;
+        rev = rev * 10 + digit;
+        no /= 10;
+    }
 
-    area = (base * height) / 2.0;
-    printf("Area of the triangle = %.2f square units\n", area);
-
-
+  
+    if (temp == rev )
+     {
+        printf("%d is a palindrome\n" , temp);
+    } else {
+        printf("%d is not a palindrome\n" , temp);
+    }
 }

@@ -1,9 +1,14 @@
-#include <stdio.h>
+#include<stdio.h>
 void main()
+{
+   int no=12;
+     if(no%2==0)
+   {
+    printf("no is even");
+    }
+ else
  {
-    int a=4, b=8, sum=0;
-    
-    sum = a + b;
-    printf("%d + %d = %d\n", a, b, sum);
+    printf("no is odd");
 
-}
+ }
+};

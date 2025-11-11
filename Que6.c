@@ -1,11 +1,14 @@
-#include <stdio.h>
-
-void main() 
+#include<stdio.h>
+void main()
 {
-    int num=6;
+    char ch='P';
+    if(ch>'A'&&ch<='Z')
+    {
+        printf("character is uppercase");
+    }
+    else
+    {
+        printf("character is lowercase");
+    }
 
-    printf("Square of %d is %d\n", num, num*num);
-    printf("Cube of %d is %d\n", num, num*num*num);
-
-    
 }

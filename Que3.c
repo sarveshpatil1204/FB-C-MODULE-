@@ -1,17 +1,13 @@
-#include <stdio.h>
-
-void main() 
+#include<stdio.h>
+void main()
 {
-    float celsius=7 , fahrenheit;
-
-     
-    {
-        fprintf(stderr, "Error: Invalid input\n");
-
-    }
-
-    fahrenheit = (celsius * 9.0f / 5.0f) + 32.0f;
-
-    printf("%.2f °C = %.2f °F\n", celsius, fahrenheit);
-  
+    int year=2003;
+        if(year%4==0&&year%100!=0||year%400==0)
+        {
+            printf("year is leaf");
+        }
+        else
+        {
+            printf("year is not leaf");
+        }
 }
